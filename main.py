@@ -1,4 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-page = requests.get('https://trangvangvietnam.com/categories/99110/phan-bon-cac-dai-ly-phan-bon.html')
+URL = 'https://trangvangvietnam.com/categories/99110/phan-bon-cac-dai-ly-phan-bon.html'
+page = requests.get(URL)
 print(page)
